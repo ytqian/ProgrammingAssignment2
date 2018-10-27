@@ -27,7 +27,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## the function retrieve a matrix, first check if the matrix has any
 ## NULL values, and then proceed to use Solve function to calculate 
 ## the inverse matrix, presuming all inputs matrices are invertible.
-## THe function will return the inverse matrix of the input at the end.
+## The function will return the inverse matrix of the input at the end.
 
 
 cacheSolve <- function(x, ...) {
