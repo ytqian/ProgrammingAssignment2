@@ -24,11 +24,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Again, the code is pretty much alike to the example. In this part,
-## the function retrieve a matrix, first check if the matrix has any
-## NULL values, and then proceed to use Solve function to calculate 
+## the function retrieve a matrix, first check if the matrix has already 
+## been inverted, and then proceed to use Solve function to calculate 
 ## the inverse matrix, presuming all inputs matrices are invertible.
-## The function will return the inverse matrix of the input at the end.
-
+## The function will return the inverse matrix of the input at the end,
+## or in the middle if the matrix is inverted.
 
 cacheSolve <- function(x, ...) {
   m <- x$getinverse()
